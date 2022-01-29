@@ -9,3 +9,5 @@ Swiper - https://swiperjs.com/;
 Accordion;
 Timeline;
 Swiper;
+
+![resume](https://user-images.githubusercontent.com/71257918/151679763-bd7fd579-d81f-4c29-b2a5-a238bf473381.jpg)
