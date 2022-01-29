@@ -731,6 +731,10 @@ body {
   margin-bottom: 0.75rem;
 }
 
+.section-welcome .container .welcome .welcome__column:last-child .welcome__btns .button:first-child, .section-welcome .container .welcome .welcome__column:last-child .welcome__btns .section-skills .skills-accordion .skills-accordion__button:first-child, .section-skills .skills-accordion .section-welcome .container .welcome .welcome__column:last-child .welcome__btns .skills-accordion__button:first-child {
+  margin-bottom: 0.75rem;
+}
+
 @media (max-width: 768px) {
   .section-welcome .container .welcome {
     display: -webkit-box;

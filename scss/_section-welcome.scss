@@ -75,6 +75,9 @@
         }
         .welcome__btns {
           margin-bottom: 0.75rem;
+          .button:first-child{
+            margin-bottom: 0.75rem;
+          }
         }
       }
     }
