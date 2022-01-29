@@ -1,0 +1,54 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: $background-section-color;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $background-section-color; /*orange color when active*/
+}
+
+.project {
+  padding-top: 3.75rem;
+  padding-bottom: 6.25rem;
+  background-color: $background-section-color;
+  .project-title {
+    padding-bottom: 0.625rem;
+  }
+  .swiper {
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+    border: 2px solid $under-avatar-color;
+    border-radius: 0.3125rem;
+    .swiper-slide {
+      .projects__item {
+        width: auto;
+        height: 100%;
+        .projects__img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        .project__name {
+          @extend %my-transition;
+          position: absolute;
+          bottom: 1.5rem;
+          left: 50%;
+          transform: translate(-50%, 0);
+          text-align: center;
+          bottom: 2rem;
+          padding: 0.3125rem 1.875rem;
+          background-color: rgba(0, 0, 0, 0.3);
+          border-radius: 5px;
+          cursor: pointer;
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+          }
+      }
+
+      }
+    }
+  }
+}

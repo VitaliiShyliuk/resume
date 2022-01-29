@@ -1,0 +1,15 @@
+@import '_normalize'; /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import '_myNormalize'; // доп обнуление
+@import '_fonts'; // стили и размеры шрифтов (переменные)
+@import '_colors'; // основные цвета (переменные)
+@import '_class'; // основные классы
+
+
+@import '_header'; // позиционирование
+@import '_section-welcome'; // позиционирование
+@import '_section-skills'; // позиционирование
+@import '_section-education'; // позиционирование
+@import '_section-project'; // позиционирование
+@import '_footer'; // позиционирование
+
+

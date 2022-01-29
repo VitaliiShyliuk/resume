@@ -1,0 +1,141 @@
+// =================================== Noselect
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+// =================================== Noselect
+
+// =================================== Icons
+.bx {
+  @extend %my-transition;
+  &:hover {
+    color: $accent-color;
+  }
+}
+// =================================== Icons
+
+// =================================== Hidden
+.hidden {
+  display: none;
+}
+// =================================== Hidden
+
+// =================================== Transition
+%my-transition {
+  transition-duration: 0.5s;
+}
+// =================================== Transition
+
+// =================================== Arrow
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrow-up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.arrow-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+// =================================== Arrow
+
+// =================================== Buttons
+.button {
+  background-color: $background-usial;
+  min-width: 140px;
+  min-height: 30px;
+  border: 1px solid;
+  border-color: $border-usual;
+  border-radius: 15px;
+  padding: 0.125rem 1.5625rem;
+  @extend %my-transition;
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+.button-accent {
+  background-color: $accent-color;
+  border-color: $accent-color;
+}
+.button-accent:hover {
+  background-color: $background-usial;
+}
+// =================================== Buttons
+
+// =================================== Fonts
+.main-title {
+  font-size: $main-title;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.subtitle-1 {
+  font-size: $subtitle-1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.subtitle-2 {
+  font-size: $subtitle-2;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+.subtitle-3 {
+  font-size: $subtitle-3;
+  font-family: "Sen", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.footer-title {
+  font-size: $footer-title;
+  text-transform: uppercase;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+}
+.buttons-text {
+  font-size: $text;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footer-text {
+  font-size: $footer-text;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+// =================================== Fonts
+
+// =================================== Social
+.social {
+  width: 100%;
+  background-color: $background-usial;
+  .bx {
+    font-size: 2rem;
+  }
+}
+// =================================== Social
+
+// =================================== Container
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.nav,
+.container-footer {
+  max-width: 1400px;
+}
+// =================================== Container

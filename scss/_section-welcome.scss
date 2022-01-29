@@ -1,0 +1,97 @@
+.section-welcome {
+  position: relative;
+  padding-bottom: 6.25rem;
+  .background-color30 {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background-color: $background-section-color;
+  }
+  .container {
+    .welcome {
+      position: relative;
+      top: 2.5rem;
+      grid-template-columns: 1fr 1fr;
+      display: grid;
+      justify-content: center;
+      .welcome__column {
+        z-index: $z-index-content;
+        box-shadow: 2px 2px 2px 1px rgba(66, 66, 66, 0.1);
+        .welcome__item {
+          margin: 1.875rem 1.875rem 2.5rem;
+        }
+      }
+      .welcome__column:first-child {
+        background-color: $under-avatar-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .welcome__item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          .welcome__avatar {
+            max-width: 12.5rem;
+            border-radius: 50%;
+            margin-bottom: 1.875rem;
+          }
+          .welcome__name {
+            text-align: center;
+            margin-bottom: 0.625rem;
+            &:after {
+              text-align: center;
+              display: block;
+              content: "";
+              width: 50px;
+              height: 2px;
+              background-color: $accent-color;
+              margin: 0 auto;
+              margin-top: 0.625rem;
+            }
+          }
+        }
+        .welcome__position {
+          margin-bottom: 3.125rem;
+        }
+        .welcome__social {
+          padding: 0.625rem 0;
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      .welcome__column:last-child {
+        background-color: $background-usial;
+        .welcome__title {
+          margin-top: 3.125rem;
+          margin-bottom: 1.25rem;
+        }
+        .welcome__subtitle {
+          margin-bottom: 1.25rem;
+        }
+        .welcome__btns {
+          margin-bottom: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .section-welcome {
+    .container {
+      .welcome {
+        display: flex;
+        flex-direction: column-reverse;
+        .welcome__column {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

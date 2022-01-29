@@ -1,0 +1,27 @@
+.section-skills {
+  padding-top: 3.125rem;
+  padding-bottom: 6.25rem;
+  .skills-title {
+    margin-bottom: 0.625rem;
+  }
+  .skills-accordion {
+    margin-bottom: 0.1875rem;
+    .skills-accordion__button {
+      @extend .button;
+      border-radius: 0.1875rem;
+      padding: 1.25rem 1.25rem;
+      width: 100%;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .skills-accordion__content {
+      margin-top: 0.1875rem;
+      border: 1px solid;
+      background-color: $under-avatar-color;
+      border-radius: 0.1875rem;
+      padding: 1.25rem 1.25rem;
+    }
+  }
+}

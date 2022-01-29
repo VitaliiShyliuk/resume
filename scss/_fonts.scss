@@ -1,0 +1,25 @@
+// ======================= Fonts
+$main-title: 3rem; // resume
+$subtitle-1: 1.375rem; // name
+$subtitle-2: 1.375rem; // subtitle welcome
+$subtitle-3: 1rem; // position, nav
+$text: 1rem;
+$footer-text: 0.75rem;
+$footer-title: 0.75rem;
+
+@media (min-width: 768px) {
+  $main-title: 4rem; // resume
+  $subtitle-1: 1.625rem; // name
+  $subtitle-2: 1.625rem; // subtitle welcome
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Sen", sans-serif;
+}
+// ======================= Fonts
+
+// ======================= Z-index
+$z-index-content: 1;
+$z-index-modal: 100;
+// ======================= Z-index
