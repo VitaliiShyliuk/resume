@@ -12,7 +12,11 @@ Accordion;
 Timeline;
 Swiper;
 
-![resume](https://user-images.githubusercontent.com/71257918/151679763-bd7fd579-d81f-4c29-b2a5-a238bf473381.jpg)
-![resume2](https://user-images.githubusercontent.com/71257918/151718415-f6b715e2-c89f-4058-8304-c9fc2fe95a00.jpg)
-![resume3](https://user-images.githubusercontent.com/71257918/151718414-88dc40df-9bdb-4914-8f50-365684f42494.jpg)
-![resume4](https://user-images.githubusercontent.com/71257918/151718410-44cbb11f-dd6f-47b3-8d25-a6f9e917d2cc.jpg)
+![resume](https://user-images.githubusercontent.com/71257918/151718513-e3bce7cf-396b-4b89-ad53-b43dcddffdc7.jpg)
+![resume2](https://user-images.githubusercontent.com/71257918/151718511-00d768be-6870-42ce-8648-4fdb5b1685c4.jpg)
+![resume3](https://user-images.githubusercontent.com/71257918/151718510-b16fc75d-ef9d-4a7d-9852-076e1eb2f879.jpg)
+![resume4](https://user-images.githubusercontent.com/71257918/151718509-23920090-4a99-47d3-b533-98ac53b48366.jpg)
+
+
+
+
